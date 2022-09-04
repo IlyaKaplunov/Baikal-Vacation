@@ -1,0 +1,28 @@
+.breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__item {
+        position: relative;
+        @media (max-width: 610px) {
+            margin-bottom: 12px;
+        }
+
+        &:not(:last-child) {
+            margin-right: 22px;
+      
+            &::after {
+                content: "/";
+                position: absolute;
+                right: -14px;
+                top: 1px;
+                color: #76767A;
+            }
+        }
+    }
+
+    &__link {
+        line-height: 16px;
+        color: #76767A;
+    }
+}

@@ -1,0 +1,45 @@
+.activity {
+    padding: 45px 0 81px 0;
+    background-color: rgba(#70CF29, 0.07);
+
+    &__title {
+        text-align: center;
+        margin-bottom: 45px;
+    }
+
+    &__body {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 36px 33px;
+
+        @media (max-width: 736px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media (max-width: 536px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    &__item {
+        &:nth-child(n + 5) {
+            .activity__icon {
+                margin-bottom: 20px;
+            }
+        }
+
+        @media (max-width: 536px) {
+            text-align: center;
+        }
+    }
+
+    &__icon {
+        margin-bottom: 17px;
+        
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 130%;
+    }
+}

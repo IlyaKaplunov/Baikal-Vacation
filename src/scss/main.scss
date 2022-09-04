@@ -1,0 +1,52 @@
+// Basic
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// Partials (Common)
+@import "./components/header";
+@import "./components/footer";
+@import "./components/page-home";
+@import "./components/breadcrumbs";
+
+// Partials (Home page)
+@import "./components/home";
+@import "./components/cards";
+@import "./components/activity";
+@import "./components/offers";
+@import "./components/map";
+@import "./components/about";
+@import "./components/gallery";
+@import "./components/promo";
+@import "./components/stat";
+@import "./components/contacts";
+
+// Partials (Camps)
+@import "./components/location";
+
+// Partials (Goryachinsk)
+@import "./components/city-about";
+@import "./components/choose";
+
+// Partials (Camp "Hot key")
+@import "./components/camp-desc";
+@import "./components/room-desc";
+
+// Partials (Excursions to Buryatia)
+@import "./components/card-exc";
+
+// Partials (Hunting and fishing)
+@import "./components/cards-huntfish";
+
+// Partials (Motor ships)
+@import "./components/motorships";
+
+// Partials (Gallery - page)
+@import "./components/gallery-more";
+
+// Partials (Big map)
+@import "./components/map-big";
+
+// Partials (Contacts page)
+@import "./components/contacts-info";

@@ -1,0 +1,41 @@
+.stat {
+    padding: 41px 0 33px 0;
+    
+    &__body {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 30px;
+
+        @media (max-width: 870px) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    &__item {
+        
+    }
+
+    &__count {
+        font-family: 'PTSerif';
+        font-weight: 700;
+        font-size: 58px;
+        line-height: 130%;
+        color: #64BD22;
+
+        @media (max-width: 870px) {
+            font-size: 45px;
+        }
+    }
+
+    &__text {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 130%;
+
+        @media (max-width: 870px) {
+            font-size: 14px;
+        }
+    }
+}
+

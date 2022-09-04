@@ -1,0 +1,99 @@
+.page-home {
+    padding: 22px 0 237px 0;
+    position: relative;
+
+    @media (max-width: 600px) {
+        padding: 14px 0 89px 0;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(#000, 0.15);
+    }
+
+    &__inner {
+        position: relative;
+        z-index: 5;
+        text-align: center;
+    }
+
+    &--camps {
+        background: url("../img/page-home/home-camps.jpg") center / cover no-repeat;
+    }
+
+    &--buryatia {
+        background: url("../img/page-home/home-excBur.jpg") center / cover no-repeat;
+    }
+
+    &--huntfish {
+        background: url("../img/page-home/home-huntfish.jpg") center / cover no-repeat;
+    }
+
+    &--cruises {
+        background: url("../img/page-home/home-cruises.jpg") center / cover no-repeat;
+
+        &::before {
+            
+            background-color: rgba(#000, 0.25);
+    
+            
+        }
+    }
+
+    &__breadcrumbs {
+        margin-bottom: 163px;
+
+        @media (max-width: 600px) {
+            margin-bottom: 52px;
+        }
+
+        li {
+            &::after {
+                color: #fff !important;
+            }
+        }
+        
+        a {
+            color: #fff;
+        }
+    }
+
+    &__title {
+        font-family: 'PTSerif';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 58px;
+        color: #FFFFFF;
+
+        @media (max-width: 600px) {
+            font-size: 29px;
+            line-height: 38px;
+        }
+    }
+
+    &__btn {
+        background-color: #3FA9F5;
+        border-radius: 25px;
+        padding: 16px 33px;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+        margin-top: 55px;
+        display: inline-block;
+
+        span {
+            background: url("../img/svg/arrow-btn.svg") right no-repeat;
+            padding-right: 25px;
+        }
+
+        @media (max-width: 576px) {
+            display: none;
+        }
+    }
+}

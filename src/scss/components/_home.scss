@@ -1,0 +1,103 @@
+.home {
+    background: url("../img/home/bg.jpg") center / cover no-repeat fixed;
+    padding: 226px 0 32px 0;
+
+    @media (max-width: 600px) {
+        padding: 130px 0 23px 0;
+    }
+
+    &__body {
+        color: #fff;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 90px;
+        line-height: 130%;
+        font-family: 'PTSerif';
+        margin-bottom: 10px;
+        max-width: 560px;
+
+        @media (max-width: 736px) {
+            font-size: 64px;
+            max-width: 510px;
+        }
+
+        @media (max-width: 600px) {
+            font-size: 40px;
+            max-width: 286px;
+        }
+    }
+
+    &__desc {
+        font-size: 20px;
+        line-height: 140%;
+        margin-bottom: 97px;
+        max-width: 480px;
+
+        @media (max-width: 736px) {
+            font-size: 18px;
+            max-width: 394px;
+        }
+
+        @media (max-width: 600px) {
+            font-size: 14px;
+            max-width: 288px;
+            margin-bottom: 37px;
+        }
+    }
+
+    &__btn {
+        display: inline-block;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: #fff;
+        border: 1px solid #FFFFFF;
+        border-radius: 30px;
+        padding: 19px 53px;
+        transition: all 0.3s ease-in-out;
+        margin-bottom: 184px;
+
+        @media (max-width: 600px) {
+            font-size: 16px;
+            margin-bottom: 42px;
+            padding: 16px 53px;
+        }
+
+        &:hover {
+            color: #000;
+            background-color: #fff;
+        }
+    }
+
+    &__arrow {
+        width: 40px;
+        height: 40px;
+        display: block;
+        border: 1px solid #FFFFFF;
+        border-radius: 50%;
+        @include flex-all-center;
+        margin: 0 auto;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            background-color: #fff;
+
+            svg {
+                stroke: #000;
+            }
+        }
+        
+        svg {
+            fill: transparent;
+            display: block;
+            object-fit: cover;
+            stroke: #fff;
+            width: 13px;
+            height: 18px;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}
