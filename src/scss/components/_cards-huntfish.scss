@@ -18,7 +18,6 @@
         grid-template-columns: repeat(12, 1fr);
         background: #F5F5F7;
         border-radius: 0px 6px 6px 0px;
-        align-items: center;
 
         &:not(:last-child) {
             margin-bottom: 32px;
@@ -42,7 +41,7 @@
 
     &__content {
         grid-column: 8 span;
-        padding: 24px 25px 35px 10px;
+        padding: 24px 25px 35px;
 
         @media (max-width: 940px) {
             grid-column: 6 span;
