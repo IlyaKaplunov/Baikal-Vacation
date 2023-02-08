@@ -12,9 +12,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_sliders__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/sliders */ "./src/js/components/sliders.js");
 /* harmony import */ var _components_burgers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/burgers */ "./src/js/components/burgers.js");
 /* harmony import */ var _components_burgers__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_components_burgers__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_dropdown_menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/dropdown-menu */ "./src/js/components/dropdown-menu.js");
-/* harmony import */ var _components_dropdown_menu__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_components_dropdown_menu__WEBPACK_IMPORTED_MODULE_2__);
-
 
 
 
@@ -158,16 +155,6 @@ if (burger2) {
     menu2.classList.toggle('active');
   });
 }
-
-/***/ }),
-
-/***/ "./src/js/components/dropdown-menu.js":
-/*!********************************************!*\
-  !*** ./src/js/components/dropdown-menu.js ***!
-  \********************************************/
-/***/ (() => {
-
-
 
 /***/ }),
 
